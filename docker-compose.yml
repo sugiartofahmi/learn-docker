@@ -1,0 +1,9 @@
+version: "3.8"
+services:
+  api:
+    build: ./docker-express
+    container_name: api_express
+    ports:
+      - 8000:8000
+    volumes:
+      - ./docker-express:/app

@@ -1,0 +1,16 @@
+{
+  "name": "docker-express",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "sugiartofahmi <sugiartofahmi@gmail.com>",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "server": "yarn nodemon ./src"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.21"
+  }
+}
